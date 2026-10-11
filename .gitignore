@@ -1,0 +1,33 @@
+# Arquivos grandes / backups
+mods.zip
+*.zip
+simplebackups/
+
+# Logs e relatórios
+logs/
+crash-reports/
+config/spark/tmp-client/
+*.tmp
+
+# Cache e arquivos gerados do servidor
+cache/
+libraries/
+versions/
+.neoforge/
+usercache.json
+session.lock
+
+# Segredos (túnel playit, etc.)
+*.secret
+playit*.toml
+.env
+
+# Mundo (descomenta se não quiser versionar)
+# world/
+world/
+cache/
+libraries/
+versions/
+usercache.json
+playit*.toml
+.env
